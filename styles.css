@@ -52,7 +52,7 @@ a{
     text-decoration: none;
 }
 
-.Blog {
+.blog {
     width: 52vw;
     height: 100vh;
     margin-top: 100px;
@@ -61,12 +61,12 @@ a{
     border: solid black 4px;
 }
 
-#blog_image{
+#blog-image{
     position: absolute;
     width: 51.5vw;
     height: 33vh;
     margin-top: 420px;
-    border: solid red 4px;
+    /* border: solid red 4px; */
 }
 
 #date{
@@ -77,7 +77,7 @@ a{
     border: solid green 4px;
 }
 
-#blog_heading{
+#blog-heading{
     position: absolute;
     width: 51.5vw;
     height: 33vh;
@@ -85,7 +85,7 @@ a{
     border: solid blue 4px;
 }
 
-.blog_list{
+.blog-list{
     position: absolute;
     width: 5vw;
     height: 50vh;
@@ -99,123 +99,32 @@ a{
     list-style-type: none;
 }
 
-.blog_list li{
+.blog-list li{
     flex: 25%;
     padding-top: 2vh;
 }
 
-.blog_list li button{
+.blog-list li button{
     border: none;
     background-color: white;
     font-size: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.blog_content{
+.blog-content{
     position: absolute;
     width: 20vw;
     height: 65vh;
     margin-top: 360px;
     margin-left: 70vw ;
-    border: solid blue 4px;
-}
-
-.Blog_info{
-    position: absolute;
-    width: 20vw;
-    height: 25vh;
-    margin-top: 0px;
-    border: solid red 4px;
-}
-
-.Blog_knowledge{
-    position: absolute;
-    width: 20vw;
-    height: 25vh;
-    margin-top: 30vh;
-    border: solid red 4px;
-}
-
-.Blog {
-    width: 52vw;
-    height: 100vh;
-    margin-top: 100px;
-    margin-left: 15em;
-    position: absolute;
-    border: solid black 4px;
-}
-
-#blog_image{
-    position: absolute;
-    width: 51.5vw;
-    height: 33vh;
-    margin-top: 420px;
-    border: solid red 4px;
-}
-
-#date{
-    position: absolute;
-    width: 150px;
-    height: 20px;
-    margin-top: 80px;
-    border: solid green 4px;
-}
-
-#blog_heading{
-    position: absolute;
-    width: 51.5vw;
-    height: 33vh;
-    margin-top: 140px;
-    border: solid blue 4px;
-}
-
-.blog_list{
-    position: absolute;
-    width: 5vw;
-    height: 50vh;
-    margin-top: 280px;
-    margin-left: 30px;
-    border: solid blue 4px;
+    /* border: solid blue 4px; */
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    list-style-type: none;
+    align-items: center;
 }
 
-.blog_list li{
+.blog-info{
     flex: 25%;
-    padding-top: 2vh;
 }
 
-.blog_list li button{
-    border: none;
-    background-color: white;
-    font-size: 25px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.blog_content{
-    position: absolute;
-    width: 20vw;
-    height: 65vh;
-    margin-top: 360px;
-    margin-left: 70vw ;
-    border: solid blue 4px;
-}
-
-.Blog_info{
-    position: absolute;
-    width: 20vw;
-    height: 25vh;
-    margin-top: 0px;
-    border: solid red 4px;
-}
-
-.Blog_knowledge{
-    position: absolute;
-    width: 20vw;
-    height: 25vh;
-    margin-top: 30vh;
-    border: solid red 4px;
-}
