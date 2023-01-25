@@ -6,6 +6,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-nav{
@@ -15,22 +16,27 @@
     top: 0;
     width: 100%;
     display: flex;
-    overflow-x: hidden;flex-direction: row;   
+    flex-direction: row;   
     z-index: 2;
     height: 7.5vh;
     border-bottom: 2px solid grey; 
     font-family: 'Carmen';
 }
-
+.nav-flex{
+    display: flex;
+    flex-direction: row;   
+    font-size: 1.2vw;
+}
 .nav-item{
-    padding: 2vh 4vw; 
-    
+    padding: 2vh 4vw;
+    font-weight: 500; 
 }
 
 .nav-center{
     font-weight: 900;
-    padding: 2vh 15vw;
-
+    padding: 2vh 12vw;
+    font-size: 1.5vw;
+    letter-spacing: .4vw;
 }
 
 .search-btn{
