@@ -137,10 +137,10 @@ a {
 
 .create-form{
   font-family: 'Roboto', sans-serif;
-  margin: 12.5vh 35vw;
+  margin: 3.5vh 35vw;
   padding: 1vh 1vw;
   border-radius: 10px;
-  border: solid 2px gray;
+  border: solid 2px black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,7 +159,7 @@ input, label, textarea, button{
 }
 
 input, textarea{
-  border: 1px solid lightgray;
+  border: 1px solid gray;
   border-radius: 5px;
 }
 
@@ -190,7 +190,7 @@ input, textarea{
 
 .create-form button{
   background-color: white;
-  border: solid 1px black;
+  border: solid 2px black;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -216,4 +216,8 @@ input, textarea{
 .dark-mode .search-btn button{
   background-color: #fefefe;
   color: #061814;
+}
+
+.dark-mode .create-form{
+  border: 1px solid #fefefe;
 }
