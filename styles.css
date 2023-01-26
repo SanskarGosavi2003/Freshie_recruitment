@@ -43,8 +43,11 @@ body {
   margin: auto;
 }
 
-.search-btn {
-  background-color: black;
+.search-btn button{
+  background-color: #061814;
+  border: none;
+  color: #fefefe;
+  font-weight: bold;
   width: 4vw;
   height: 4vw;
   margin: 0 4vw;
@@ -53,6 +56,7 @@ body {
   align-items: center;
   text-align: center;
 }
+
 
 .search-btn .fa-search {
   color: white;
@@ -207,4 +211,9 @@ input, textarea{
 
 .dark-mode .main-nav{
   background-color: #061814;
+}
+
+.dark-mode .search-btn button{
+  background-color: #fefefe;
+  color: #061814;
 }
