@@ -10,8 +10,8 @@
     />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -22,32 +22,30 @@
   <body>
     <div class="main-nav">
       <div class="nav-flex">
-        <div class="nav-item"><a href="create_blog.html">Add Blogs</a></div>
-        <div class="nav-item"><a href="index.html">Add Blog</a></div>
+        <div class="nav-item"><a href="add_blog.html">Add Blogs</a></div>
+        <div class="nav-item"><a href="index.html">Most Popular</a></div>
       </div>
       <div class="nav-flex">
-        <div class="nav-center">DEVCOM</div>
+        <div class="nav-center" ><a href="index.html">DEVCOM</a></div>
       </div>
       <div class="nav-flex right">
-        <div class="nav-item"><a href="create_blog.html">Add Blog</a></div>
-        <div class="nav-item"><a href="index.html">Add Blog</a></div>
-        <div class="search-btn"><i class="fa fa-search"></i></div>
+        <div class="nav-item"><a href="index.html">My Collection</a></div>
+        <div class="nav-item"><a href="index.html">Cart</a></div>
+        <div class="search-btn"><button onclick="changeTheme()"><i class="fa fa-sun-o"></i></button></div>
       </div>
     </div>
 
     <div class="main">
       <ul class="blog-list">
-        <li><a href="#">01</a></li>
-        <li><a href="#">02</a></li>
-        <li><a href="#">03</a></li>
-        <li><a href="#">04</a></li>
+        <li><button onclick="jsonChecker(0)">01</button></li>
+        <li><button onclick="jsonChecker(1)">02</button></li>
+        <li><button onclick="jsonChecker(2)">03</button></li>
+        <li><button onclick="jsonChecker(3)">04</button></li>
       </ul>
       <div class="blog">
         <div class="date"><span>25th January, 2023</span></div>
         <div class="heading">
-          <span>
-            <h1>We Create A Modern Beautiful Blogging Website</h1>
-          </span>
+          <h1 class="heading-h1">We Create A Modern Beautiful Blogging Website</h1>
         </div>
         <img
           src="img/img_1.png"
@@ -58,7 +56,7 @@
       <div class="blog-content">
         <div class="blog-info">
           <h3>Air Drone</h3>
-          <div>
+          <div class="blog-info-content">
             We used a drone and took photos at differen time of the day. Do you
             go away often, and beautiful photos are your favourite souveniers
             from every vacation? Think about buying a drone.
@@ -66,7 +64,7 @@
         </div>
         <div class="blog-info">
           <h3>Knowledge</h3>
-          <div>
+          <div class="blog-info-knowledge">
             We are a team of experienced people who implement the most advanced
             projects
           </div>
@@ -76,4 +74,5 @@
       <!-- https://dribbble.com/shots/15993980-Blog-Photo-Website-concept -->
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

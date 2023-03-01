@@ -4,6 +4,8 @@
 
 body {
   margin: 0px;
+  color: black;
+  background-color: white;
 }
 
 .main-nav {
@@ -36,13 +38,16 @@ body {
 
 .nav-center {
   font-weight: 900;
-  font-size: 1.5vw;
+  font-size: 2vw;
   letter-spacing: 0.4vw;
   margin: auto;
 }
 
-.search-btn {
-  background-color: black;
+.search-btn button{
+  background-color: #061814;
+  border: none;
+  color: #fefefe;
+  font-weight: bold;
   width: 4vw;
   height: 4vw;
   margin: 0 4vw;
@@ -52,13 +57,14 @@ body {
   text-align: center;
 }
 
+
 .search-btn .fa-search {
   color: white;
 }
 
 a {
-  color: black;
   text-decoration: none;
+  color: black;
 }
 
 .main {
@@ -82,8 +88,10 @@ a {
   flex: 25%;
 }
 
-.blog-list li a {
+.blog-list li button {
   font-size: 25px;
+  border: none;
+  background-color: white;
 }
 
 .blog {
@@ -125,4 +133,91 @@ a {
 .blog-info div {
   margin-top: 7px;
   color: gray;
+}
+
+.create-form{
+  font-family: 'Roboto', sans-serif;
+  margin: 3.5vh 35vw;
+  padding: 1vh 1vw;
+  border-radius: 10px;
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+label{
+  display: block;
+  font-weight: bold;
+}
+
+input, label, textarea, button{
+  margin: 0.5vh 0.5vw;
+  padding: 0.5vh 0.5vw;
+  width: 95%;
+}
+
+input, textarea{
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.create-form > div{
+  width: 100%;
+}
+
+.create-form h1{
+  display: block;
+  margin: 0vh 6vw;
+  text-align: center;
+}
+
+.blog-image-form input{
+  border: none;
+  margin-left: 10vw;
+  color: rgba(0, 0, 0, 0);
+}
+
+.blog-image-form input::file-selector-button{
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+
+.create-form button{
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.dark-mode{
+  background-color: #061814;
+  color: #fefefe;
+}
+
+.dark-mode a{
+  color: #fefefe;
+}
+
+.dark-mode .blog-list li button{
+  background-color: #061814;
+  color: #fefefe;
+}
+
+.dark-mode .main-nav{
+  background-color: #061814;
+}
+
+.dark-mode .search-btn button{
+  background-color: #fefefe;
+  color: #061814;
+}
+
+.dark-mode .create-form{
+  border: 1px solid #fefefe;
 }

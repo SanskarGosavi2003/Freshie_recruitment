@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <!-- Font Awesome -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    
+        <!-- Google Fonts -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <title>Bolger</title> 
+    </head>
+
+    <body>
+        <div class="main-nav">
+            <div class="nav-flex">
+              <div class="nav-item"><a href="add_blog.html">Add Blogs</a></div>
+              <div class="nav-item"><a href="index.html">Most Popular</a></div>
+            </div>
+            <div class="nav-flex">
+              <div class="nav-center"><a href="index.html">DEVCOM</a></div>
+            </div>
+            <div class="nav-flex right">
+              <div class="nav-item"><a href="index.html">My Collection</a></div>
+              <div class="nav-item"><a href="index.html">Cart</a></div>
+              <div class="search-btn"><button onclick="changeTheme()"><i class="fa fa-sun-o"></i></button></div>
+            </div>
+        </div>
+        <div class="create-form">
+            <h1>CREATE BLOG</h1>
+            <div class="blog-heading-form"><label for="heading">Heading</label><input type="text" name="heading" id="heading"></div>
+            <div class="blog-content-form">
+                <div class="content-1-form"><label for="content-1">Blog Content</label><textarea name="content-1" rows="7" id="blogContent"></textarea></div>
+                <div class="content-2-form"><label for="content-2">Blog Info</label><textarea name="content-2"  rows="7" id="blogInfo"></textarea></div>
+            </div>
+            <div class="blog-image-form"><label for="form-image">Blog Image</label><input type="file" name="form-image"></div>
+            <button onclick="createBlog()">Create Blog</button>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
